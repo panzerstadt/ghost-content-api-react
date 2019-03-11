@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
+import fetchGhost, { FetchGhost } from "./components/fetchGhost";
 class App extends Component {
+  state = { posts: [] };
+  componentDidMount() {
+    fetchGhost().then(d => this.setState({ posts: d }));
+  }
   render() {
     return (
       <div className="App">
@@ -20,6 +25,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <FetchGhost />
       </div>
     );
   }
