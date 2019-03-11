@@ -1,0 +1,14 @@
+{
+  "main.css": "/ghost-content-api-react/static/css/main.3ee490ec.chunk.css",
+  "main.js": "/ghost-content-api-react/static/js/main.22c9fb2c.chunk.js",
+  "main.js.map": "/ghost-content-api-react/static/js/main.22c9fb2c.chunk.js.map",
+  "runtime~main.js": "/ghost-content-api-react/static/js/runtime~main.7c7bddfc.js",
+  "runtime~main.js.map": "/ghost-content-api-react/static/js/runtime~main.7c7bddfc.js.map",
+  "static/js/2.6e0e2d1f.chunk.js": "/ghost-content-api-react/static/js/2.6e0e2d1f.chunk.js",
+  "static/js/2.6e0e2d1f.chunk.js.map": "/ghost-content-api-react/static/js/2.6e0e2d1f.chunk.js.map",
+  "index.html": "/ghost-content-api-react/index.html",
+  "precache-manifest.911cbdc5961ed0d361bec0e8b6e6b9f9.js": "/ghost-content-api-react/precache-manifest.911cbdc5961ed0d361bec0e8b6e6b9f9.js",
+  "service-worker.js": "/ghost-content-api-react/service-worker.js",
+  "static/css/main.3ee490ec.chunk.css.map": "/ghost-content-api-react/static/css/main.3ee490ec.chunk.css.map",
+  "static/media/logo.svg": "/ghost-content-api-react/static/media/logo.5d5d9eef.svg"
+}
