@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import fetchGhost, { FetchGhost } from "./components/fetchGhost";
+import fetchGhost, { FetchGhost } from "./components/Ghost";
 class App extends Component {
   state = { posts: [] };
   componentDidMount() {

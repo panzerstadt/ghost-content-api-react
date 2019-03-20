@@ -77,10 +77,11 @@ export const FetchGhost = ({ onFetched }) => {
   return (
     <div className={styles.containerDiv}>
       {posts.map(p => {
+        console.log(p);
         if (p.feature_image) {
-          return <WithImage post={p} />;
+          return <WithImage key={p.comment_id} post={p} />;
         } else {
-          return <NoImage post={p} />;
+          return <NoImage key={p.comment_id} post={p} />;
         }
       })}
     </div>
